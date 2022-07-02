@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.isSkewPersymmetricMatrix;
+})();
 })();
 </script>
 ```
@@ -88,6 +90,7 @@ var bool = isSkewPersymmetricMatrix( arr );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-skew-persymmetric-matrix@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var arr = ndarray( 'generic', [ 1, 0, 0, -1 ], [ 2, 2 ], [ 2, 1 ], 0, 'row-major' );
 var out = isSkewPersymmetricMatrix( arr );
@@ -102,6 +105,7 @@ out = isSkewPersymmetricMatrix( {} );
 out = isSkewPersymmetricMatrix( null );
 // returns false
 
+})();
 })();
 </script>
 </body>
@@ -201,11 +205,11 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/assert/is-matrix-like]: https://github.com/stdlib-js/assert-is-matrix-like/tree/umd
+[@stdlib/assert/is-matrix-like]: https://github.com/stdlib-js/assert-is-matrix-like/tree/umd/tree/umd
 
-[@stdlib/assert/is-persymmetric-matrix]: https://github.com/stdlib-js/assert-is-persymmetric-matrix/tree/umd
+[@stdlib/assert/is-persymmetric-matrix]: https://github.com/stdlib-js/assert-is-persymmetric-matrix/tree/umd/tree/umd
 
-[@stdlib/assert/is-skew-symmetric-matrix]: https://github.com/stdlib-js/assert-is-skew-symmetric-matrix/tree/umd
+[@stdlib/assert/is-skew-symmetric-matrix]: https://github.com/stdlib-js/assert-is-skew-symmetric-matrix/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
