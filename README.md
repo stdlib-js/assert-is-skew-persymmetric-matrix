@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isSkewPersymmetricMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-skew-persymmetric-matrix@deno/mod.js';
+import isSkewPersymmetricMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-skew-persymmetric-matrix@v0.2.3-deno/mod.js';
 ```
 
 #### isSkewPersymmetricMatrix( value )
@@ -69,7 +69,7 @@ var bool = isSkewPersymmetricMatrix( arr );
 
 ```javascript
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@deno/mod.js';
-import isSkewPersymmetricMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-skew-persymmetric-matrix@deno/mod.js';
+import isSkewPersymmetricMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-skew-persymmetric-matrix@v0.2.3-deno/mod.js';
 
 var arr = ndarray( 'generic', [ 1, 0, 0, -1 ], [ 2, 2 ], [ 2, 1 ], 0, 'row-major' );
 var out = isSkewPersymmetricMatrix( arr );
